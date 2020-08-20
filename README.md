@@ -25,7 +25,6 @@ If you are a regular Windows user [this version](https://nodejs.org/dist/v12.18.
 `cd simplest-speech-to-text`  
 `npm install`
 
-
 ## Google Configuration
 You can play with local files to test the API, but it won't allow you to use audios longer than 1 minute.  
 Instead you will have to upload and reference files from Google Cloud Storage.
@@ -48,13 +47,10 @@ __Required for long audios (>1 minute)__
 ### Generic command
 __Usage__
 
-`node transcribe convert audio\example.wav -e wave -r 48000 -l en-US -f local`
-
-`node transcribe convert audio\example.mp3 -e mp3 -r 44100 -l pt-BR -f local`
-
-`node transcribe convert gs://your-service-account/example.wav -e wave -r 48000 -l en-US -f cloud`
-
-`node transcribe convert gs://your-service-account/example.mp33 -e mp3 -r 44100 -l pt-BR -f cloud`
+`node transcribe convert audio\example.wav -e wave -r 48000 -l en-US -f local`  
+`node transcribe convert audio\example.mp3 -e mp3 -r 44100 -l pt-BR -f local`  
+`node transcribe convert gs://your-service-account/example.wav -e wave -r 48000 -l en-US -f cloud`  
+`node transcribe convert gs://your-service-account/example.mp33 -e mp3 -r 44100 -l pt-BR -f cloud`  
 
 
 ### Local Wave file

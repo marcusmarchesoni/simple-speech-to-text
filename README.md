@@ -47,8 +47,8 @@ __Required for long audios (>1 minute)__
 ### Generic command
 __Usage__
 
-`node transcribe convert audio\example.wav -e wave -r 48000 -l en-US -f local`  
-`node transcribe convert audio\example.mp3 -e mp3 -r 44100 -l pt-BR -f local`  
+`node transcribe convert audio/example.wav -e wave -r 48000 -l en-US -f local`  
+`node transcribe convert audio/example.mp3 -e mp3 -r 44100 -l pt-BR -f local`  
 `node transcribe convert gs://your-service-account/example.wav -e wave -r 48000 -l en-US -f cloud`  
 `node transcribe convert gs://your-service-account/example.mp33 -e mp3 -r 44100 -l pt-BR -f cloud`  
 
@@ -56,12 +56,12 @@ __Usage__
 ### Local Wave file
 __Usage__
 
-`node transcribe wave-local audio\example.wav`
+`node transcribe wave-local audio/example.wav`
 
 ### Local MP3 file
 __Usage__
 
-`node transcribe mp3-local audio\example.mp3`
+`node transcribe mp3-local audio/example.mp3`
 
 ### Cloud Wave file
 __Usage__

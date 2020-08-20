@@ -1,0 +1,14 @@
+{
+  "name": "simple-speech-to-texte",
+  "private": true,
+  "license": "None",
+  "author": "Marcus Marchesoni",
+  "repository": "marcusmarchesoni/simple-speech-to-text",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.1",
+    "yargs": "^15.0.0"
+  }
+}
